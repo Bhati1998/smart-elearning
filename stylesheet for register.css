@@ -1,0 +1,164 @@
+
+.name {
+    display: inline-block;
+    margin: 10px;
+	color:blue;
+}
+
+.textbox
+{
+	height:50px;
+}
+
+.button1 {
+    background-color: white;
+	font-size:20px;
+	text-align:center;
+	border-radius:12px;
+    color: black;
+	cursor:pointer;
+    border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.button6 {
+    background-color: #007f00;
+	font-size:20px;
+	text-align:center;
+    color: white;
+	cursor:pointer;
+    border: 2px solid #007f00;
+}
+
+.button6:hover {
+    background-color: #00b200;
+	border: 2px solid #00b200;
+    color: white;
+	}
+.button5 {
+    background-color: blue;
+	font-size:20px;
+	text-align:center;
+	border-radius:12px;
+    color: white;
+	cursor:pointer;
+}
+
+.button5:hover {
+    background-color: #ffffff;
+    color: black;
+	border: 2px solid blue
+}
+
+.button3 {
+    background-color: white;
+    color: black;
+	font-size:20px;
+	border-radius:12px;
+	text-align:center;
+	cursor:pointer;
+    border: 2px solid #008CBA;
+}
+
+.button3:hover {
+    background-color: #008CBA;
+    color: white;
+}
+.button2 {
+    background-color: white;
+    color: black;
+	font-size:20px;
+	border-radius:12px;
+	text-align:center;
+	cursor:pointer;
+    border: 2px solid red;
+}
+
+.button2:hover {
+    background-color:red;
+    color: white;
+}
+h1 {
+    overflow: hidden;
+    text-align: center;
+}
+h1:before,
+h1:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+h1:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+h1:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+.trial
+{
+	cursor:pointer;
+}
+div.container {
+	height:200px;
+    width: 100%;
+    border: 1px solid gray;
+	background-image: url("bkgnd.jpg");
+}
+.start
+{
+	font-family:Arial Unicode MS;
+	font-size:40px;
+	color:WHITE;
+	text-indent:50px;
+}
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content:'»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+

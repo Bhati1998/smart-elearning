@@ -1,0 +1,91 @@
+<html>
+<head>
+<title>Sign in |Smart</title>
+<link rel="icon" href="smart_logo_2016.jpg" type="image/gif" sizes="15x15">
+<link rel="stylesheet"
+type="text/css"
+href="stylesheet for register.css">
+<style type="text/css">
+hr{
+background-color:blue;
+width:100%;
+height:2px
+}
+</style>
+</head>
+<body style="text-align:justify">
+<h1 class="name" style="text-align:left;margin-top:10px;margin-left:75px; cursor:pointer ;background-color: lightblue" ><a href="Home.html"><img src="logo.jpg" width="150px"></a></h1><h2 class="name" style="position:relative;cursor:pointer;"><a style="margin-left: 10cm"  href="register.html"><img src="1.1.3a.png"/></a>  <a style="margin-left: 1cm;"  href="sign in for project.html"><img src="1.1.3b.png"/></a></h2>
+<hr>
+<form>
+<table style="border:1px solid black" align="center" bgcolor="	#DCDCDC">
+<tr>
+<td width="60%" height="60%">
+<h1>Sign in</h1>
+<font size="4.5">
+<center>UserName<center><center><input style="height:30px" type="text" id="name" size="50" name="username" placeholder="username" required oninvalid="this.setCustomValidity('Mandatory Field')"  autocomplete="on"></input></center><br>
+<center>Password</center><center><input style="height:30px" type="password" id="pwd" name="password" size="50" placeholder="password" required ></center><br>
+<center><input type="button" value="LOGIN" onclick="return checkAnswer();" style="height:40px;width:390px" class="button3"></center>
+</td>
+ </tr>
+ <tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+ </table><br><br>
+<script>
+  function checkAnswer(){
+      var response = document.getElementById('name').value;
+      var res = document.getElementById('pwd').value
+      if (response == "aditya" && res == '12345')
+          location = 'page1.html';
+          else
+          {
+          alert("Either the password or  the username is incorrect");
+          location.reload();
+          }
+      return false;
+  }
+  </script>
+ </font>
+</form>
+<br>
+<center style="font-size:150%">New to Smart?</center><br>
+ <center><a href=" register.html "><button type="submit" style="height:40px;width:390px" class="button1" >Create your account</button></a></center><br>
+<hr>
+<table width="60%" cellspacing="10">
+<tr>
+<td width="20%"><img src="smart_logo_2016.jpg" width="50px" align="left"> <font size="20">Smart</font></td>
+<td width="10%" style="color:red;font-size:150%">COMMUNITY</td>
+<td width="10%" style="color:red;font-size:150%">CONNECT</td>
+<td width="10%" style="color:red;font-size:150%">MORE</td>
+</tr>
+<tr>
+<td style="cursor:pointer"></td>
+<td style="cursor:pointer">Objective</td>
+<td><a style="text-decoration:none;color:black;" href=" https://www.facebook.com/login/">Facebook</a></td>
+<td style="cursor:pointer">Terms</td>
+</tr>
+<tr>
+<td></td>
+<td style="cursor:pointer">Mentors</td>
+<td><a style="text-decoration:none;color:black;" href="https://in.linkedin.com/">LinkedIn</a></td>
+<td style="cursor:pointer">Privacy</td>
+</tr>
+<tr>
+<td></td>
+<td style="cursor:pointer">Developers</td>
+<td><a style="text-decoration:none;color:black;" href="https://plus.google.com/collections/featured">Google+</a></td>
+<td style="cursor:pointer">Help</td>
+</tr>
+<tr>
+<td></td>
+<td style="cursor:pointer">Designers</td>
+<td><a style="text-decoration:none;color:black;" href="https://twitter.com/?lang=en">Twitter</a></td>
+<td style="cursor:pointer">Contact</td>
+</tr>
+<tr>
+<td></td>
+<td style="cursor:pointer">Inspiration</td>
+<td><a style="text-decoration:none;color:black;" href="https://www.reddit.com/">Reddit</a></td>
+<td style="cursor:pointer">Support</td>
+</tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,91 @@
+body {
+  background: #34373e;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+}
+
+#container {
+  width: 376px;
+  height: 515px;
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0,0,0,0.8);
+  background: #f4f4f4;
+  /*margin: -258px -188px;
+  position: absolute;
+  top: 50%;
+  left: 50%;*/
+  margin: 10px auto;
+}
+
+#image {
+  background-image: url("http://www.shakti-wellness.net/pics/gal/10/2.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 258px;
+  border-bottom: 4px solid #f2624a;
+}
+
+#image > span {
+  border: 2px solid white;
+  border-radius: 100px;
+  width: 40px;
+  height: 40px;
+  display: block;
+  line-height: 40px;
+  text-align: center;
+  color: white;
+  float: right;
+  margin: 20px;
+  font-size: 20px;
+  opacity: 0.7;
+  transition: all 0.3s;
+}
+
+#image > span:hover {
+  opacity: 1;
+}
+
+#image > span.liked {
+  box-shadow: 0 0 10px white, inset 0 0 10px white;
+  text-shadow: 0 0 10px white;
+  opacity: 1;
+}
+
+#stuff {
+  color: #84878e;
+  height: 40px;
+  padding: 20px;
+}
+
+#stuff > div {
+  background: #1fc198;
+  padding: 10px;
+  font-size: 14px;
+  color: white;
+  display: inline-block;
+  float: right;
+  border-radius: 3px;
+  transition: background 0.2s;
+}
+
+#stuff > div:hover {
+  background: #0a8f6c;
+}
+
+#stuff > strong {
+  font-size: 2em;
+  color: #37383d;
+}
+
+#separator {
+  width: 40%;
+  border-bottom: 1px solid #d4d4d4;
+  margin: 5px auto;
+}
+
+#comments {
+  line-height: 150px;
+  text-align: center;
+  opacity: 0.6;
+  font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+}

@@ -1,0 +1,29 @@
+{            
+	"questions":[ 
+		{ 
+			"question": "Where does C++ program starts from?",
+			"choices"  : ["clrscr()","main()","getch()","sort()"],
+			"answer"  : "main()"  
+		}, 
+		{
+			"question": "Which one is a loop?",
+			"choices"  : ["while","switch","if","return"],
+			"answer"  : "while"  
+		},
+		{
+			"question": "What is not a valid data type",
+			"choices"  : ["int","float","double","large"],
+			"answer"  : "large" 
+		},
+		{
+			"question": "What is not a valid operator in c++",
+			"choices"  : ["*","+","/","**"],
+			"answer"  : "**" 
+		},
+		{
+			"question": "Who invented C++?",
+			"choices"  : ["Dennis Ritchie","Tim Berners-Lee","James Gosling","Bjarne Stroustrup"],
+			"answer"  : "Bjarne Stroustrup"                                          
+		} 
+	]
+} 

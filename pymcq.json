@@ -1,0 +1,29 @@
+{            
+	"questions":[ 
+		{ 
+			"question": "Where is Python program written?",
+			"choices"  : ["notepad","shell","compiler","assembler"],
+			"answer"  : "shell"  
+		}, 
+		{
+			"question": "Which one is a loop?",
+			"choices"  : ["while","switch","if","return"],
+			"answer"  : "while"  
+		},
+		{
+			"question": "What is not present in Python",
+			"choices"  : ["classes","methods","lists","main function"],
+			"answer"  : "main function" 
+		},
+		{
+			"question": "What is not a valid for Python",
+			"choices"  : ["interpreted","object-oriented","garbage collecter","compiled"],
+			"answer"  : "compiled" 
+		},
+		{
+			"question": "Who invented Python?",
+			"choices"  : ["Dennis Ritchie","Tim Berners-Lee","James Gosling","Guido van Rossum"],
+			"answer"  : "Guido van Rossum"                                          
+		} 
+	]
+} 
